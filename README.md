@@ -1,6 +1,3 @@
-Here’s a comprehensive `README.md` file for your online auction website project. This file will help you and others understand the project structure, setup instructions, and how to contribute.
-
-```markdown
 # Online Auction Website
 
 An online auction platform built with **Golang** (backend), **PostgreSQL** (database), and **ReactJS** (frontend). This project supports real-time bidding, multiple auction types, and secure payment integration.
@@ -183,5 +180,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [ReactJS](https://reactjs.org/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [Stripe](https://stripe.com/)
-```
-
