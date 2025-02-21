@@ -128,15 +128,15 @@
 ---
 
 ### **Suggested Timeline**
-| Phase                     | Duration   | Priority |
-|---------------------------|------------|----------|
-| Phase 1: Setup and Core   | 2 weeks    | High     |
-| Phase 2: Bidding          | 2 weeks    | High     |
-| Phase 3: Payments         | 1 week     | Medium   |
-| Phase 4: Advanced Features| 2 weeks    | Medium   |
-| Phase 5: Admin Dashboard  | 1 week     | Low      |
-| Phase 6: Testing          | 1 week     | High     |
-| Phase 7: Deployment       | 1 week     | High     |
+| Phase                     | Duration   | Priority | Status   |
+|---------------------------|------------|----------|----------|
+| Phase 1: Setup and Core   | 2 weeks    | High     | 21feb    |
+| Phase 2: Bidding          | 2 weeks    | High     |          |
+| Phase 3: Payments         | 1 week     | Medium   |          |
+| Phase 4: Advanced Features| 2 weeks    | Medium   |          |
+| Phase 5: Admin Dashboard  | 1 week     | Low      |          |
+| Phase 6: Testing          | 1 week     | High     |          |
+| Phase 7: Deployment       | 1 week     | High     |          |
 
 ---
 
