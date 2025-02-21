@@ -1,0 +1,53 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Go build artifacts
+/bin/
+/backend/bin/
+/backend/main
+
+# Ignore Node.js dependencies and build artifacts
+/frontend/node_modules/
+/frontend/.env
+/frontend/build/
+/frontend/.cache/
+/frontend/.next/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore Go modules
+/go.sum
+/go.mod
+
+# Ignore PostgreSQL data
+/postgres-data/
+
+# Ignore compiled binaries
+*.exe
+*.out
+*.test
+
+# Ignore coverage files
+coverage/
+*.coverprofile
+
+# Ignore dependency directories (if any)
+vendor/
+
+# notes from deepseek
+notes.txt
+
