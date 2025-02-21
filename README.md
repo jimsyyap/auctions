@@ -1,6 +1,6 @@
 # Online Auction Website
 
-An online auction platform built with **Golang** (backend), **PostgreSQL** (database), and **ReactJS** (frontend). This project supports real-time bidding, multiple auction types, and secure payment integration.
+An online auction platform built with **Golang** (backend), **PostgreSQL** (database), and **ReactJS** (frontend). This project will have real-time bidding, multiple auction types, and secure payment integration.
 
 ---
 
