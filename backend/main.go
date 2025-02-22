@@ -2,7 +2,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"your-project-name/backend/routes"
+	"github.com/jimsyyap/auctions/backend/routes"
+    "github.com/gin-contrib/cors"
 )
 
 func main() {

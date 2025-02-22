@@ -3,6 +3,7 @@ package middleware
 import (
 	"net/http"
 	"github.com/gin-gonic/gin"
+	"github.com/golang-jwt/jwt/v5"
 	"github.com/jimsyyap/auctions/backend/utils"
 )
 

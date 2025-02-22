@@ -1,6 +1,7 @@
 package handlers
 
 import (
+	"context" // Add this import
 	"net/http"
 	"github.com/jimsyyap/auctions/backend/models"
 	"github.com/jimsyyap/auctions/backend/utils"
@@ -78,4 +79,38 @@ func Login(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusOK, gin.H{"token": token})
+}
+
+func Profile(c *gin.Context) {
+	userID, _ := c.Get("user_id")
+	role, _ := c.Get("role")
+
+	c.JSON(200, gin.H{
+		"user_id": userID,
+		"role":    role,
+	})
+}
+
+func ListUsers(c *gin.Context) {
+	db := utils.ConnectDB()
+	defer db.Close()
+
+	rows, err := db.Query(context.Background(), "SELECT id, username, email, role FROM users")
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to fetch users"})
+		return
+	}
+	defer rows.Close()
+
+	var users []models.User
+	for rows.Next() {
+		var user models.User
+		if err := rows.Scan(&user.ID, &user.Username, &user.Email, &user.Role); err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to scan user"})
+			return
+		}
+		users = append(users, user)
+	}
+
+	c.JSON(http.StatusOK, gin.H{"users": users})
 }
