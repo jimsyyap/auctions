@@ -1,11 +1,11 @@
 # Online Auction Website Development Roadmap
 
 ## Phase 1: Planning and Setup (2-3 weeks)
-- Define detailed requirements and user stories
-- Design database schema
-- Create wireframes and UI/UX design
-- Set up development environments
-- Initialize Git repositories
+- (done) Define detailed requirements and user stories
+- (done) Design database schema
+- (done) Create wireframes and UI/UX design
+- (done) Set up development environments
+- (done) Initialize Git repositories
 - Configure CI/CD pipelines
 
 ## Phase 2: Core Backend Development (4-6 weeks)
