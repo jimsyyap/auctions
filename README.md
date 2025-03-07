@@ -1,6 +1,6 @@
 # AuctionHub - Online Auction Platform
 
-A modern online auction platform inspired by TradeMe, built with Go, PostgreSQL, and React.
+A modern online auction platform, built with Go, PostgreSQL, and React.
 
 ## 🚀 Features
 
