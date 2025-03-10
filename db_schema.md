@@ -305,3 +305,4 @@
   - Valid price ranges (positive values)
   - Valid rating values (1-5)
   - Date constraints (end_time > start_time)
+
