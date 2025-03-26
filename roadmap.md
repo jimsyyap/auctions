@@ -1,26 +1,26 @@
 # Online Auction Website Development Roadmap
 
-## Phase 1: Planning and Setup (2-3 weeks)
-- (done) Define detailed requirements and user stories
-- (done) Design database schema
-- (done) Create wireframes and UI/UX design
-- (done) Set up development environments
-- (done) Initialize Git repositories
-- Configure CI/CD pipelines
+Phase 1: Planning and Setup (2-3 weeks)
+    (done) Define detailed requirements and user stories
+    (done) Design database schema
+    (done) Create wireframes and UI/UX design
+    (done) Set up development environments
+    (done) Initialize Git repositories
+    later - Configure CI/CD pipelines
 
-## Phase 2: Core Backend Development (4-6 weeks)
-- Set up Go project structure with Gin/Echo
-- Implement database models and migrations
-- Create user authentication system
-  - Registration, login, profile management
-  - JWT implementation
-- Develop RESTful API endpoints for:
-  - User management
-  - Item listing creation and management
-  - Category and attribute management
-  - Search and filter functionality
-- Set up image upload and storage system
-- Implement basic testing
+Phase 2: Core Backend Development (4-6 weeks)
+    (done) Set up Go project structure with Gin/Echo
+    (done) Implement database models and migrations
+    Create user authentication system
+        Registration, login, profile management
+        JWT implementation
+    Develop RESTful API endpoints for:
+        User management
+        Item listing creation and management
+        Category and attribute management
+        Search and filter functionality
+    Set up image upload and storage system
+    Implement basic testing
 
 ## Phase 3: Auction Engine Development (3-4 weeks)
 - Develop bidding system logic
