@@ -1,4 +1,4 @@
-# AuctionHub - Online Auction Platform
+# AuctionHub - Online Auction Platform jims
 
 A modern online auction platform, built with Go, PostgreSQL, and React.
 

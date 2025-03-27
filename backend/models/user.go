@@ -2,7 +2,7 @@
 package models
 
 import (
-	"time"
+	_ "time"
 
 	"gorm.io/gorm"
 )
